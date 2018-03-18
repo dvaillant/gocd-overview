@@ -1,0 +1,21 @@
+= GoCD
+
+== Les fonctionnalités
+
+- Modélisation de workflows complexes
+- Le _Value Stream Map_ permet de visualiser le pipeline de bout en bout en temps réel
+- Gestion des versions des applications ()
+- Rapport d'exécution des tests
+- Comparaison des livrables
+- Exécution à l'aide d'agents
+- Templating de pipeline pour le reuse
+- Extensible
+- Propose un _grand_ catalogue de plugin
+
+https://www.gocd.org/why-gocd/
+
+
+== Installation
+
+docker run -d -p8153:8153 -p8154:8154 gocd/gocd-server:v18.2.0
+
